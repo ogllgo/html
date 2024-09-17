@@ -1,9 +1,9 @@
-body {
+body { /* per the spec */
     background-color: #4b4b4b;
     color: white;
 }
 
-.content {
+.content { /* per the spec */
     margin: 0 auto;
     width: 800px;
     background-color: black;
@@ -11,17 +11,16 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: white;
-    color: black;
+    display: grid; /* Elements under this will be in a grid display */
+    grid-template-columns: repeat(3, 1fr); /* 3 elements per row */
+    gap: 20px; /* 20px gap between elements */
+    max-width: 800px; /* Max width per line */
+    background-color: white; /* per the spec */
+    color: black; /* per the spec */
 }
 
 .image-text {
-    text-align: center;
+    text-align: center; /* per the spec */
 }
 
 .image-text img {
@@ -30,16 +29,15 @@ body {
 }
 
 .image-text p {
-    max-width: 266px;
-    margin: 0 auto;
+    max-width: 266px; /* justin case; prepared for anything */
     color: black;
 }
 
 .header {
-    grid-column: span 3;
+    grid-column: span 3; /* this spans 3 of the grid cells; since the grid has 3 cells per side, this makes it the entirety */
     text-align: center;
 }
 
-a {
+a { /* i just like it more :) */
     color: pink; text-decoration: none;
 }

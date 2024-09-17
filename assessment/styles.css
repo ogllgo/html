@@ -1,0 +1,45 @@
+body {
+    background-color: #4b4b4b;
+    color: white;
+}
+
+.content {
+    margin: 0 auto;
+    width: 800px;
+    background-color: black;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+}
+
+.image-text {
+    text-align: center;
+}
+
+.image-text img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text p {
+    max-width: 266px;
+    margin: 0 auto;
+    color: black;
+}
+
+.header {
+    grid-column: span 3;
+    text-align: center;
+}
+
+a {
+    color: pink; text-decoration: none;
+}

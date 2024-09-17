@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Website Replication</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Container to make the center part a different colour to the background -->
+<div class="content">
+
+    <!-- This is a placeholder for an image. It's linked to LINK 1. -->
+    <a href="http://www.dell.com/en-us/gaming/alienware"><h1>IMAGE</h1></a>
+
+    <!-- text-shadow lets you give text shadows, it uses, in this order:
+    left position
+    down positon
+    colour -->
+    <h1 style="text-shadow: 50px 5px #3ba8d6">Alienware Gaming Laptops</h1>
+    <h2>GOODBYE, LIMITS, HELLO, FREEDOM.</h2>
+    <!-- You use <span> for the same purposes as <p> or <div> but with no line breaks -->
+    <p>Your right to game without limits is here. With <span style="color: lightblue;">Alienware</span> laptops, gaming is free of distractions and full of possibilities.</p>
+
+    <!-- Another placeholder -->
+    <a href="http://www.dell.com/en-au/gaming/alienware-laptops"><h1>IMAGE</h1></a>
+    <p style="color: #3cede5">Alienware machines are built with unprecedented thermal innovations to rid heat efficiently for maximum performance. With advanced Cryo-Tech technology and HyperEfficient Voltage Regulation, marathon gaming sessions are a given.</p>
+    <h1 style="background-color: red; width: 800px; height: 425px">IMAGE</h1>
+    <!-- check CSS for why this works -->
+    <div class="container">
+        <!-- container for the header -->
+        <div class="header">
+            <p style="color: black;">Explore The Next Generation</p>
+        </div>
+        <!-- containers to make the images and descriptors bunched together -->
+        <div class="image-text">
+            <!-- "./" does the same thing as nothing, "../" goes one level upwards
+                 if you're in a folder under your username, then "../" refers to your username -->
+            <img src="../image.jpg" alt="Image 1"/>
+            <p>Game greater with our fastest 15” G-SYNC displays. Featuring Alienware Cryo-Tech™ cooling and 11th Gen Intel® Core™ processors.</p>
+        </div>
+        <div class="image-text">
+            <img src="../image.jpg" alt="Image 2"/>
+            <p>Game greater with our fastest 15” G-SYNC displays. Featuring Alienware Cryo-Tech™ cooling and 11th Gen Intel® Core™ processors.</p>
+        </div>
+        <div class="image-text">
+            <img src="../image.jpg" alt="Image 3"/>
+            <p>Game greater with our fastest 15” G-SYNC displays. Featuring Alienware Cryo-Tech™ cooling and 11th Gen Intel® Core™ processors.</p>
+        </div>
+    </div>
+    <!-- easiest way to do this is a table -->
+    <table>
+        <tr>
+            <td>
+                <h2>Alienware x14 Specifications</h2>
+            </td>
+            <td>
+                <ul>
+                    <li>Price - from $1,799</li>
+                    <li>Display - 14.0 inches (Full HD 144Hz 7ms with ComfortView Plus, Nvidia G-Sync and Advanced Optimus)</li>
+                    <li>CPU - Intel Core i7 12700H, Intel Core 17 12900H</li>
+                    <li>GPU - Nvidia GeForce RTX 3050 (4GB), 3050 Ti (4GB), 3060 (6GB)</li>
+                    <li>RAM - 16GB, 32GB</li>
+                    <li>Storage - 256GB, 512GB, 1TB, 2TB</li>
+                    <li>Ports - 2 Thunderbolt 4 ports (USB Type-C), 1 USB 3.2 (USB-C), 1 Type-A USB 3.2, 1 HDMI 2.1, Micro-SD 5.2 UHS-II, global headset jack</li>
+                    <li>Size - 12.66 x 10.34 x 0.57 inches</li>
+                    <li>Weight - Starting at 3.96 pounds</li>
+                </ul>
+            </td>
+
+        </tr>
+    </table>
+    <div style="background-color: #4b4b4b; color: white; text-align: left">COPYRIGHT: © 2022 Dell Inc. All rights reserved.</div>
+</div>
+</body>
+</html>

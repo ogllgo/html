@@ -1,0 +1,12 @@
+.container {
+    max-width: fit-content;
+}
+.image-text-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image-text {
+    text-align: center;
+}
